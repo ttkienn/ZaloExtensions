@@ -63,7 +63,7 @@ Dự án này được cấp phép theo [Giấy phép MIT](LICENSE).
 
 | Name               | GitHub Profile                              | Avatar                                 |
 |--------------------|---------------------------------------------|----------------------------------------|
-| Thiệu Trung Kiên   | [ttkiennn](https://github.com/ttkiennn) | <img src="https://avatars.githubusercontent.com/u/87187870" alt="Thiệu Trung Kiên" width="50" height="50" /> |
+| Thiệu Trung Kiên   | [ttkiennn](https://github.com/ttkienn) | <img src="https://avatars.githubusercontent.com/u/87187870" alt="Thiệu Trung Kiên" width="50" height="50" /> |
 
 ---
 
