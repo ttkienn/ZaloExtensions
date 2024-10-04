@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="./assets/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Zalo Extensions</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./assets/logo.png" alt="Kaguya" class="logo" />
+      <h1>Zalo Extensions</h1>
+    </header>
+
+
+    <div class="content">
+      <div class="form-group">
+        <label for="cookies">Cookies:</label>
+        <textarea id="cookies" rows="4" readonly>Đợi tí đang chuyển hướng để lấy cookie !</textarea>
+        <button id="copy-cookies-button" class="copy-button">Copy Cookies</button>
+      </div>
+
+      <div class="form-group">
+        <label for="imei">IMEI:</label>
+        <textarea id="imei" rows="6" readonly>Đợi tí đang chuyển hướng để lấy imei !</textarea>
+        <button id="copy-imei-button" class="copy-button">Copy IMEI</button>
+      </div>
+
+      <div class="author-info">
+        <span>Author: <a href="https://facebook.com/ThieuTrungKi3n" target="_blank">Thiệu Trung Kiên</a></span>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

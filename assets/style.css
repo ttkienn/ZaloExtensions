@@ -1,0 +1,142 @@
+.copy-button,
+button {
+  color: #fff;
+  cursor: pointer;
+  transition: background-color .3s;
+  font-size: 14px
+}
+
+.author-info,
+.copy-button,
+button,
+textarea {
+  font-size: 14px
+}
+
+.author-info span,
+label {
+  display: block;
+  font-weight: 500
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  margin: 0;
+  padding: 0
+}
+
+.container {
+  width: 320px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, .1);
+  background-color: #fff;
+  border-radius: 10px
+}
+
+.header {
+  display: flex;
+  align-items: center
+}
+
+.header img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px
+}
+
+.content {
+  margin-bottom: 20px
+}
+
+.form-group {
+  margin-bottom: 15px
+}
+
+label {
+  margin-bottom: 5px;
+  color: #555
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  color: #333
+}
+
+.copy-button {
+  margin-top: 5px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745
+}
+
+.copy-button:hover {
+  background-color: #218838
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between
+}
+
+button {
+  flex: 1;
+  margin-right: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff
+}
+
+button:last-child {
+  margin-right: 0
+}
+
+button:hover {
+  background-color: #0056b3
+}
+
+.author-info {
+  margin-top: 20px;
+  color: #555;
+  text-align: center
+}
+
+.author-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500
+}
+
+.author-link:hover {
+  text-decoration: underline
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .1)
+}
+
+.header h1 {
+  font-size: 1.6em;
+  margin: 0;
+  color: #007bff
+}
